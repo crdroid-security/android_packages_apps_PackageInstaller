@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.permissioncontroller.permission.utils;
+package com.android.packageinstaller.permission.utils;
 
 import android.Manifest;
 import android.util.ArraySet;
