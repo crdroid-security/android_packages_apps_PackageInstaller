@@ -598,7 +598,7 @@ public final class PermissionControllerServiceImpl extends PermissionControllerS
                     if (AdminRestrictedPermissionsUtils.mayAdminGrantPermission(perm.getName(),
                             isManagedProfile)) {
                         perm.setPolicyFixed(true);
-                        group.grantRuntimePermissions(false, false, new String[]{permName});
+                        group.grantRuntimePermissions(false, new String[]{permName});
                     } else {
                         // similar to PERMISSION_GRANT_STATE_DEFAULT
                         perm.setPolicyFixed(false);
